@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card {
+	width: 300px;
+    height: 400px;
+    background-color: #685978;
+    border-radius: 25px !important;
+    background: whitesmoke;
+    box-shadow: 0px 1px 5px 4px #088d08 !important;
+    
+    /* 418px */
+}
+
+.food-name {
+	padding-top: 26px;
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 26px;
+    border-bottom: 2px solid #088d08;
+    line-height: 0px !important;
+}
+
+.food-amount {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-size: 25px;
+    border-top: 2px solid #088d08;
+    border-bottom: 2px solid #088d08;
+}
+
+.add-to-cart {
+	display: flex;
+    padding-top: 9px !important	;
+    padding-left: 10px !important;
+}
+
+.adtc {
+	border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 11px 20px;
+    background: green;
+    outline: 2px solid;
+}
+.App {
+    background: black;
+}
+.adtc:hover	 {
+	background: black;
+	color: white;
+	outline: 2px solid red;
+	transition: 0.7s;
+}
+
+.sungba {
+	display: flex;
+    padding-top: 2em;
+    gap: 1.3em;
+    width: 97%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 2em;
+    margin-left: 2.5em;
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .sungba {
+        gap: 2em !important;
+        margin-left: 0.7em !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+   .card {
+    height: auto !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .food-name {
+        padding-top: 26px;
+        font-size: 25px;
+        padding-bottom: 26px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .card-img {
+        height: 280px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .food-name {
+        font-size: 25px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 418px) {
+    .add-to-cart {
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .sungba {
+        gap: 2em !important;
+        margin-left: 1.4em !important;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+   .card {
+    height: auto !important;
+    width: auto !important;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .food-name {
+        padding-top: 40px;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .card-img {
+        height: 300px !important;
+        width: 382px !important;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .food-amount {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .add-to-cart {
+        padding-top: 13px !important;
+        padding-bottom: 13px !important;
+    }
+}
+
+@media (min-width: 418px) and (max-width: 425px) {
+    .adtc {
+        padding: 15px 30px !important;
+    }
+}
