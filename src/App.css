@@ -5,7 +5,7 @@
 }
 
 .card {
-	width: 300px;
+	width: auto;
     height: 400px;
     background-color: #685978;
     border-radius: 25px !important;
@@ -36,7 +36,7 @@
 
 .add-to-cart {
 	display: flex;
-    padding-top: 9px !important	;
+    padding-top: 13px !important	;
     padding-left: 10px !important;
 }
 
@@ -62,12 +62,11 @@
 .sungba {
 	display: flex;
     padding-top: 2em;
-    gap: 1.3em;
+    gap: 2em;
     width: 97%;
-    margin: auto;
     flex-wrap: wrap;
     padding-bottom: 2em;
-    margin-left: 2.5em;
+    margin-left: 2.7em;
 }
 
 @media (min-width: 320px) and (max-width: 418px) {
